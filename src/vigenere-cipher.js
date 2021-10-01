@@ -23,9 +23,17 @@ export default class VigenereCipheringMachine {
   encrypt() {
     throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
+    // if (!message || !key) {
+    //   throw new Error('Incorrect arguments!')
+    //   let newMessage = message.toUppercase
+    // }
   }
   decrypt() {
     throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
+    // if (!message || !key) {
+    //   throw new Error('Incorrect arguments!')
+    //   let newMessage = message.toUppercase
+    // }
   }
 }
